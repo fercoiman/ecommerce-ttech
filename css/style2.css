@@ -1,0 +1,29 @@
+/* Google Fonts */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Personalización adicional */
+h2 {
+    font-weight: bold;
+    color: #333;
+}
+
+#products .card-body,
+#reviews .card {
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+/* Ajustes de botón */
+button {
+    font-weight: bold;
+}
+
+/* Mejora de responsividad */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
