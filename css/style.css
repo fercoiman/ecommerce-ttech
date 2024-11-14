@@ -34,6 +34,17 @@ h2 {
     text-align: center;
 }
 
+.card-title{
+    font-weight: bold;
+    color:black
+    
+}
+
+.card-text{
+    font-weight: bold;
+    color:green;
+}
+
 .product-card img {
     width: 100%;
     height: auto;
@@ -66,18 +77,6 @@ h2 {
         grid-template-columns: 1fr;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Ajustes de botón */
 button {
