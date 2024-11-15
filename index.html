@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Bright Side - Tienda en línea</title>
+    <title>Course Terra - Educación en línea</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,118 +19,155 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./css/style6.css" />
-    <title>Bright e-commerce</title>
+    <title>Course Terra</title>
   </head>
 
   <body>
     <header>
+      <h1 class="titulo">Course Terra</h1>
+      <h3>Educación on line</h3>
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../html/productos.html">Cursos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../html/quienes-somos.html">Quiénes Somos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../html/contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
       <nav class="navbar-sticky">
-        <!--  hace que el menu quede fijo -->
-        <div class="navbar-inicio">
-          <!-- <img src="./images/bright-ecommerce-logo.png" alt="Logo de bright-ecommerce" class="logo"> -->
-          <img
-            src="./images/ethers.svg"
-            alt="Logo de bright-ecommerce"
-            width="50px"
-          />
-          <h1 class="titulo">Bright Side</h1>
-          <div class="navbar-inicio iconos">
-            <a href="#"><box-icon type="solid" name="cart-alt"></box-icon></a
-            ><!-- icono carrito -->
-            <a href="#"><box-icon type="solid" name="user-circle"></box-icon></a
-            ><!-- icono user -->
-          </div>
+             <div class="navbar-inicio">
+          
+      
+
+          
+          
         </div>
       </nav>
     </header>
+    <main>
+      <h3>"Impulsa tu futuro en tecnología: <br>Cursos online para alcanzar tus metas"</h3>
+      <br> 
+        
+      <p>Descubre el camino hacia el éxito profesional con nuestros cursos de TI y educación en línea. Aprende de expertos, accede a certificaciones reconocidas y construye una carrera en las áreas de mayor demanda hoy en día. ¡Invierte en ti mismo y comienza tu transformación ahora!</p>
 
-    <!-- carrousel -->
-    <div id="carouselExampleCaptions" class="carousel slide">
-      <div class="carousel-indicators">
+<br>
+
+      <!-- carrousel -->
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+      
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+        </div>
+        
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/carr01.PNG" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Los mejores instructores a tu alcance</h5>
+              <p>Descubre lo que necesitas para impulsar tu carrera !</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/carr02.PNG" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Cursos para todos los niveles</h5>
+              <p>Todo la capacitación en un solo lugar.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="./images/carr03.PNG" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Reserva tu lugar online</h5>
+              <p>Encuentra la capacitación que buscabas</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="./images/carr04.PNG" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Encuentra, elige, compra. Tan simple como eso</p>
+            </div>
+          </div>
+
+
+        </div>
+
         <button
+          class="carousel-control-prev"
           type="button"
           data-bs-target="#carouselExampleCaptions"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
         <button
+          class="carousel-control-next"
           type="button"
           data-bs-target="#carouselExampleCaptions"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="./images/shop01.jpg" class="d-block w-100" alt="..." />
-          <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Descubre lo que necesitas, compra lo que amas</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="./images/shop02.jpg" class="d-block w-100" alt="..." />
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Tu tienda. Todo lo que quieras, en un solo lugar.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="./images/shop03.jpg" class="d-block w-100" alt="..." />
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Encuentra, elige, compra. Tan simple como eso</p>
-          </div>
-        </div>
+      <!-- fin-carrouse  -->
+
+
+      <!--Bootstrap-->
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"
+      ></script>
+      <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    </main>
+
+    <footer class="bg-dark text-white py-3">
+      <div class="container text-center">
+        <p>&copy; 2024 Course Terra. Todos los derechos reservados.</p>
       </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-    <!-- fin-carrouse  -->
-
-    <div>
-      <!-- From Uiverse.io by iZOXVL  -->
-      <button class="boton-elegante">Comprar</button>
-      <button class="boton-elegante">Explorar</button>
-      <button class="boton-elegante">Inicio</button>
-    </div>
-
-    <!--Bootstrap-->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    </footer>
   </body>
-  <footer class="bg-dark text-white py-3">
-    <div class="container text-center">
-        <p>&copy; 2023 Bright Side. Todos los derechos reservados.</p>
-    </div>
-
-  </footer>
 </html>

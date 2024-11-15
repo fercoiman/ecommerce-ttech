@@ -1,12 +1,38 @@
 /* Google Fonts */
+
 body {
     font-family: 'Roboto', sans-serif;
 }
 
 /* Personalización adicional */
+h1{
+    font-weight: bold;
+    
+}
+
 h2 {
     font-weight: bold;
     color: #333;
+}
+
+
+.nav-item {
+    padding: 0 15px; /* Ajusta el espaciado lateral */
+    font-size: 18px; /* Ajusta el tamaño de fuente */
+}
+
+.nav-item .nav-link {
+    color: #ffffff; /* Cambia el color del texto */
+    transition: color 0.3s ease; /* Suaviza el cambio de color */
+}
+
+.nav-item .nav-link:hover {
+    color: #e9e6dd; /* Cambia el color al pasar el ratón */
+    text-decoration: underline; /* Sube una línea de subrayado al pasar el ratón */
+}
+
+.text-service-description{
+    padding: 5%;
 }
 
 #products .card-body,
