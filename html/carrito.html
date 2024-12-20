@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Carrito</title>
+</head>
+
+<body>
+    <!-- Encabezado del carrito -->
+    <header class="bg-dark text-white py-3 mb-4">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="bg-dark text-white py-3">Carrito de Compras</h1>
+            <a href="../index.html" class="btn btn-outline-light">Volver</a>
+        </div>
+    </header>
+
+    <!-- Sección principal del carrito -->
+    <section id="carrito" class="container">
+        <h2 class="text-center my-4">Tus Compras</h2>
+        <div id="lista-carrito" class="row gy-3">
+            <!-- Lista de productos -->
+            <div class="col-12 text-center">
+                <p class="text-muted">Tu carrito está vacío.</p>
+            </div>
+        </div>
+
+        <!-- Resumen del carrito -->
+        <div id="resumen-carrito" class="mt-4 p-3 bg-light rounded shadow-sm">
+            <p class="mb-1">Total de productos: <span id="total-productos" class="fw-bold">0</span></p>
+            <p>Importe total: $<span id="importe-total" class="fw-bold">0.00</span></p>
+        </div>
+
+        <div class="text-center mt-4">
+            <button onclick="realizarCompra()" class="btn btn-primary btn-lg">Finalizar la compra</button>
+        </div>
+    </section>
+
+    <script src="../js/carrito.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
+ 
